@@ -22,13 +22,15 @@ The goal of this challenge is to **build strong programming fundamentals**, impr
 ---
 
 ## 🗂 Repository Structure
-100-days-of-c/
+100daysofcode-C/
 │
-├── Day01/
-│ └── program1.c
+├── Day1/
+│ └── ques1.c
+│ └── ques2.c
 │
-├── Day02/
-│ └── program2.c
+├── Day2/
+│ └── ques3.c
+│ └── ques4.c
 │
 └── ...
 
