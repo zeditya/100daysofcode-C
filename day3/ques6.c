@@ -22,7 +22,7 @@ int main(){
   var3 = num1;
   num1 = num2;
   num2 =var3;
-  printf("after swapping number 1: %d, number 2: %d\n", num1, num2);
+  printf("after swapping number 1: %d,    number 2: %d\n", num1, num2);
   
 
   return 0;
