@@ -19,6 +19,7 @@ int main () {
   int tot_secs, hours , minutes , seconds;
   printf("enter the time in seconds:\n");
   scanf("%d", &tot_secs);
+  
   hours= tot_secs/3600;
   int remaining_secs = tot_secs % 3600;
   minutes = remaining_secs / 60;
@@ -26,7 +27,7 @@ int main () {
 
   printf("%d:%d:%d\n", hours , minutes , seconds);
 
-  
+
 
 
   return 0;

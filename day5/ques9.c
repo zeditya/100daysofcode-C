@@ -27,10 +27,8 @@ int main (){
   scanf("%f", &time);
 
   si= princ*rate*time/100;
-
   amount = princ * pow((1+rate/100), time);
   ci= amount - princ;
-
 
   printf("the simple interest is %.2f\n", si);
   printf("the compound interest is %.2f\n", ci);
