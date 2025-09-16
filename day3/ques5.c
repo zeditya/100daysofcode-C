@@ -16,10 +16,14 @@
 
 #include<stdio.h>
 int main(){
+
    double celsius, fahrenheit;
+   
    printf("enter the temp(the temp is in celsius):\n");
    scanf("%lf", &celsius);
+
    fahrenheit = (celsius* 9.0/5.0)+32;
+
    printf("value in fahrenheit is %lf\n", fahrenheit);
 
   return 0;

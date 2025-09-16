@@ -19,9 +19,11 @@ int main(){
   int num1, num2, var3;
   printf("input the two numbers you want to swap:\n");
   scanf("%d %d", &num1, &num2);
+
   var3 = num1;
   num1 = num2;
   num2 =var3;
+  
   printf("after swapping number 1: %d,    number 2: %d\n", num1, num2);
   
 
