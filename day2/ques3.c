@@ -17,11 +17,13 @@
 
 #include <stdio.h>
 int main () {
+
   float length, breadth, area, perimeter;
   printf("enter the length\n");
   scanf("%f", &length);
   printf("enter the breadth\n");
   scanf("%f", &breadth);
+  
   area = length*breadth;
   perimeter = 2*(length + breadth);
 

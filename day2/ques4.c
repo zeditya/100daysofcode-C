@@ -25,6 +25,7 @@ int main() {
     
     double radius, area, circumference;
     const double PI = 3.14;
+    
     printf("Please enter the radius of the circle: ");
     scanf("%lf", &radius);
 
